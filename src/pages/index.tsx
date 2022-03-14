@@ -1,5 +1,9 @@
-import { Main } from '@/components/Main';
+import { styled } from '@/styles/index';
+
+const Title = styled('h1', {
+  color: '$hiContrast',
+});
 
 export default function Home() {
-  return <Main />;
+  return <Title>Personal Project</Title>;
 }
